@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Tugas_Conversi_ASCII.exe" version="1.0.0.1" publicKeyToken="557993b0b650c719" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Tugas_Conversi_ASCII" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Tugas_Conversi_ASCII.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tugas_Conversi_ASCII.exe" size="1030144">
+      <assemblyIdentity name="Tugas_Conversi_ASCII" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qtnd9OoFmGHUpL7FIJJKGfj1XTPbBn664DS95fzuEeE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Tugas_Conversi_ASCII.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9RNBIFS\MC" issuerKeyHash="e7595be75feb16b10a4d8869e6a2c3c502b2b39b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mB0jJmCT1r2WdAHB88LG1R3zo7bMLr7f8FAMOpnLkCo=</DigestValue></Reference></SignedInfo><SignatureValue>m92YXfC/ZD8xRT7wOIRBX9jzQTuHOuY9JIv8QKdCIn+mVJ/SRb7/wJPkCToMxr3GLzldFS3Jh4lqbPj6MfDUmGVQJYOzSHZf+vkdkefQXebdQxb5WfFSMba61FtbxMVchSzMWhX+DPBElHBkp6zwZfQs5EloOsiH1C1ApICg1vs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nAZJJ0cZKcuXjMNEBS2SafpWO1p7g9YIUBKRxBWpSJKQpCGXOoL7ao8K20pqw4NJe7AA32OqiieivOq/1UUVjg/URf762DPxxVmsGhIPG94lrKsT3lsA8km5cgNAIdeoSUvYDIL0bHjHPEZmSqjd8Ea8o0/PhvQMvPHXv4GgMl0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2a90cb993a0c50f0dfbe2eccb6a3f31dd5c6c2f3c1017496bdd6936026231d98" Description="" Url=""><as:assemblyIdentity name="Tugas_Conversi_ASCII.exe" version="1.0.0.1" publicKeyToken="557993b0b650c719" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9RNBIFS\MC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SjLhA0i6FvvCdwWiGVckUC0IN3kK99QU8qo4ckR/PP0=</DigestValue></Reference></SignedInfo><SignatureValue>i0+WB0bamfiLei+luG/cdoY1BP3MLYxmu38vIoe5xR9HwQ4N0ZZriMYMwLiiftYP8lmzGsjJV9+RVRr9rFw3ffQSSZKeq+xfAUFj52FmMIE6m44mgyit6BhUba1UBM4ik9uZkTo3CpbCwqZIfppzU1fCt36zBkcEROpXraMEWOk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nAZJJ0cZKcuXjMNEBS2SafpWO1p7g9YIUBKRxBWpSJKQpCGXOoL7ao8K20pqw4NJe7AA32OqiieivOq/1UUVjg/URf762DPxxVmsGhIPG94lrKsT3lsA8km5cgNAIdeoSUvYDIL0bHjHPEZmSqjd8Ea8o0/PhvQMvPHXv4GgMl0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQYl5T28EvU55PGPKvOcfNFzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADkAUgBOAEIASQBGAFMAXABNAEMwHhcNMTgwNDIzMDIyOTUxWhcNMTkwNDIzMDgyOTUxWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADkAUgBOAEIASQBGAFMAXABNAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJwGSSdHGSnLl4zDRAUtkmn6Vjtae4PWCFASkcQVqUiSkKQhlzqC+2qPCttKasODSXuwAN9jqoonorzqv9VFFY4P1EX++tgz8cVZrBoSDxveJayrE95bAPJJuXIDQCHXqElL2AyC9Gx4xzxGZkqo3fBGvKNPz4b0DLzx17+BoDJdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAW35d2cYJ1PwfodShRcmjNFUdD8YnutcB6td7UUypI2Bx2pz1vL1lS6aqzijAUtsK148uqHauI2pk+JfH+FeqECUpRIcvEG66NT11uTl9ZZRu7Qk+DO83HYPg0HwBN9HsPEtaa5ZlJ7XXweoSgJPeDsoMBUuWr1rKsz6RXel/OBs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
